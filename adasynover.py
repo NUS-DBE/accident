@@ -52,7 +52,7 @@ class ADASYNOverSampler:
                     if W is not None:
                         nn_w=w[nn_idx]
                         sample_w=w[class_indices[i]]
-                        gap = sample_w/(sample_w+nn_w) #rng.random()
+                        gap = nn_w/(sample_w+nn_w) #rng.random()
                     else:
                         gap = rng.random()
 
