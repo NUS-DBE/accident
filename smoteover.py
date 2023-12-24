@@ -42,7 +42,7 @@ class SMOTEOverSampler:
                     if W is not None:
                         nn_w=w[indices[cen][rr]]
                         sample_w=w[cen]
-                        gap = nn_w/(sample_w+nn_w) #rng.random()
+                        gap = sample_w/(sample_w+nn_w) #rng.random()
                     else:
                         gap = rng.random()
                     synthetic_sample = sample + gap * diff
