@@ -118,7 +118,7 @@ def train_and_evaluate(X, Y, test_rate, random_state):
 
     y_pred = clf.predict(X_test)
     accuracy = 1 - sum(abs(y_pred - y_test)) / len(y_pred)
-    bal_acc = balanced_accuracy_score(y_pred, y_test)
+    bal_acc = balanced_accuracy_score(y_test,y_pred)
 
 
 
