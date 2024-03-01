@@ -1,6 +1,6 @@
 # accident_triangle
 
-Code for article: 
+Code for article:  Overcoming Imbalanced Safety Data Using Extended Accident Triangle-based Oversampling Approaches
 
 
 
