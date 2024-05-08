@@ -21,5 +21,9 @@ Code for article:  Overcoming Imbalanced Safety Data Using Extended Accident Tri
 python plot-xiang.py
 ```
 
+```bash 
+python over.py
+```
+
 
 
