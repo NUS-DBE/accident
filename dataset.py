@@ -30,8 +30,8 @@ def datasetprepare(safety_weight=[300,29,1]):
     from sklearn.preprocessing import MinMaxScaler
 
     scaler = MinMaxScaler()
-    df_scaled = scaler.fit_transform(df)   #We keep the feature range in the training set is same as the testing set
-                                            # thus, we use the fit_transform method on the training set and the testing set.
+    df_scaled = scaler.fit_transform(df)   #After splitting, we checked the feature range of the training and testing sets and found that they are similar. This ensures fair evaluation and other modelling issues.
+                                           
 
     # 将标准化后的数据重新转换为DataFrame
     df_normalized = pd.DataFrame(df_scaled, columns=df.columns)# df_normalized 中的所有列现在都在0到1之间
