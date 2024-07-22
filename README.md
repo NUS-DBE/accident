@@ -2,6 +2,9 @@
 
 Code for article:  Overcoming Imbalanced Safety Data Using Extended Accident Triangle
 
+
+ <img src="c1.jpg" width="100%">
+ 
  <img src="triangle2.jpg" width="100%">
 
  <img src="over2.png" width="100%">
