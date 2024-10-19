@@ -1,6 +1,6 @@
 # Accident_triangle
 
-Code for article:  Overcoming Imbalanced Safety Data Using Extended Accident Triangle
+Code for article:  [Overcoming Imbalanced Safety Data Using Extended Accident Triangle](https://arxiv.org/abs/2408.07094)
 
 
  <img src="c1.jpg" width="100%">
